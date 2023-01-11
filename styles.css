@@ -1,0 +1,67 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h1{
+    text-align: center;
+
+}
+.main-container{
+    /*border: 1px solid red; ver div contenedor*/
+    display: flex; /*todos en linea*/
+    flex-direction: column;/*pone en columnas*/
+    align-items: center;/*centra pantalla*/
+}
+.row{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+
+}
+
+.square{
+    width: 80px;
+    height: 80px;
+    border: none;/*seleccionar cuadrado no se vea seleccion de input*/
+    background-color: rgb(67, 50, 29);
+    outline: none;
+    font-size:50px ;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+.result{
+    text-align: center;
+    font-size: 36px;
+
+}
+
+.button{
+    width: 170px;
+    height: 60px;
+    border-radius: 16px;
+    border: none;
+    background-color:#6aaa64 ;
+    font-size: 32px;
+    color: #fff;
+
+
+}
+
+.button:hover{
+    border: 3px solid #6aaa64;
+    background-color: white;
+    color:#6aaa64 ;
+    cursor: pointer;
+}
+
+.gold{
+    background-color: #c9b458;
+}
+
+.gray{
+    background-color: #787c7e;
+}
+.green{
+    background-color: #6aaa64;
+}
